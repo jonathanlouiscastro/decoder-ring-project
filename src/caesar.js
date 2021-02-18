@@ -7,7 +7,7 @@ const caesarModule = (function () {
 
   function caesar(input, shift, encode = true) {
 
-    let meessage = input.toLowerCase();
+    let message = input.toLowerCase();
     let result = "";
     //Check for invalid inputs for shift 
     if(shift === 0 || shift < -25 || shift > 25 || !shift) return false;
